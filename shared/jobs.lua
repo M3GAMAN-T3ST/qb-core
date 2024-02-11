@@ -139,4 +139,14 @@ QBShared.Jobs = {
 			['4'] = { name = 'Manager', isboss = true, payment = 150 },
 		},
 	},
+	postal = {
+        label = 'GoPostal',
+        defaultDuty = false,
+        offDutyPay = false,
+        grades = {
+            [0] = { name = 'Delivery Driver', payment = 0 },
+            [1] = { name = 'Manager', payment = 0 },
+            [2] = { name = 'Boss', isboss = true, payment = 0 },
+        },
+    },
 }
