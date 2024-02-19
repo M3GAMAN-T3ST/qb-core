@@ -11,9 +11,69 @@ QBShared.Jobs = {
 	garbage = { label = 'Garbage', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Collector', payment = 50 } } },
 	vineyard = { label = 'Vineyard', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Picker', payment = 50 } } },
 	hotdog = { label = 'Hotdog', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Sales', payment = 50 } } },
+	-- angelicsx-Civilianjobs
+	busdriver = { label = 'Bus Driver', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
+	forkliftdriver = { label = 'Forklift Operator', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
+	taxidriver = { label = 'Taxi Driver', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
+	scubadiver = { label = 'Scuba Diver', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
+	lifeguard = { label = 'Lifeguard', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
+	helidriver = { label = 'Helicopter Cargo Delivery', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
+	garbagedriver = { label = 'Garbage Truck Driver', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
 
 	police = {
 		label = 'Law Enforcement',
+		type = 'leo',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Officer', payment = 75 },
+			['2'] = { name = 'Sergeant', payment = 100 },
+			['3'] = { name = 'Lieutenant', payment = 125 },
+			['4'] = { name = 'Chief', isboss = true, payment = 150 },
+		},
+	},
+	lspd = {
+		label = 'Los Santos Police Department',
+		type = 'leo',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Officer', payment = 75 },
+			['2'] = { name = 'Sergeant', payment = 100 },
+			['3'] = { name = 'Lieutenant', payment = 125 },
+			['4'] = { name = 'Chief', isboss = true, payment = 150 },
+		},
+	},
+	bcso = {
+		label = 'Blaine County Sheriffs Office',
+		type = 'leo',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Officer', payment = 75 },
+			['2'] = { name = 'Sergeant', payment = 100 },
+			['3'] = { name = 'Lieutenant', payment = 125 },
+			['4'] = { name = 'Chief', isboss = true, payment = 150 },
+		},
+	},
+	sasp = {
+		label = 'San Andreas State Police',
+		type = 'leo',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Officer', payment = 75 },
+			['2'] = { name = 'Sergeant', payment = 100 },
+			['3'] = { name = 'Lieutenant', payment = 125 },
+			['4'] = { name = 'Chief', isboss = true, payment = 150 },
+		},
+	},
+	sapr = {
+		label = 'San Andreas Park Rangers',
 		type = 'leo',
 		defaultDuty = true,
 		offDutyPay = false,
@@ -139,7 +199,7 @@ QBShared.Jobs = {
 			['4'] = { name = 'Manager', isboss = true, payment = 150 },
 		},
 	},
-	postal = {
+	postal = { -- dream-postal
         label = 'GoPostal',
         defaultDuty = false,
         offDutyPay = false,
@@ -149,4 +209,27 @@ QBShared.Jobs = {
             [2] = { name = 'Boss', isboss = true, payment = 0 },
         },
     },
+	butcher = { -- lusty94_butcher
+        label = 'Clucking Bell Butcher',
+        defaultDuty = false,
+        offDutyPay = false,
+        grades = {
+            [0] = { name = 'Apprentice Butcher', payment = 50 },
+            [1] = { name = 'Novice Butcher', payment = 50 },
+            [2] = { name = 'Professional Butcher', payment = 50 },
+            [3] = { name = 'Senior Butcher', payment = 50 },
+            [4] = { name = 'Butchery Owner', isboss = true, payment = 50},
+        },
+    },
+	airport = { -- pickle-airport
+		label = 'Airport',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			[0] = { name = 'Recruit', payment = 0 },
+			[1] = { name = 'Pilot', payment = 0 },
+			[2] = { name = 'Lead Pilot', payment = 0 },
+			[3] = { name = 'Air-Traffic Controller', isboss = true,  bankAuth = true, payment = 0 },
+		},
+	},
 }
