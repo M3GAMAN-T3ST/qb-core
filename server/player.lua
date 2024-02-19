@@ -134,12 +134,20 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
     PlayerData.metadata['callsign'] = PlayerData.metadata['callsign'] or 'NO CALLSIGN'
     PlayerData.metadata['fingerprint'] = PlayerData.metadata['fingerprint'] or QBCore.Player.CreateFingerId()
     PlayerData.metadata['walletid'] = PlayerData.metadata['walletid'] or QBCore.Player.CreateWalletId()
+    PlayerData.metadata['farmingxp'] = PlayerData.metadata['farmingxp'] or 0 -- boii-farming
     PlayerData.metadata["communityservice"] = PlayerData.metadata["communityservice"] ~= nil and PlayerData.metadata["communityservice"] or 0 -- qb-community-service
     PlayerData.metadata['carboostrep'] = PlayerData.metadata['carboostrep'] or 0 -- jl-laptop
     PlayerData.metadata['laptop'] = PlayerData.metadata['laptop'] or { -- jl-laptop
         background = 'default',
         darkfont = false,
     }
+    PlayerData.metadata["skill"]  = PlayerData.metadata["skill"]  ~= nil and PlayerData.metadata["skill"] or { -- rz=gym
+		["Stamina"] = {["Current"] = 10.0, ["Stat"] = "MP0_STAMINA", ["RemoveAmount"] = 0}, 
+		["Strength"] = {["Current"] = 5.0, ["Stat"] = "MP0_STRENGTH", ["RemoveAmount"] = 0 },
+        ["Lung Capacity"] = {["Current"] = 5.0, ["Stat"] = "MP0_LUNG_CAPACITY", ["RemoveAmount"] = 0 },
+        ["Driving"] = {["Current"] = 0.0, ["Stat"] = "MP0_DRIVING_ABILITY", ["RemoveAmount"] = 0 },
+        ["Wheelie"] = {["Current"] = 0.0, ["Stat"] = "MP0_WHEELIE_ABILITY", ["RemoveAmount"] = 0 }
+	}
     PlayerData.metadata['criminalrecord'] = PlayerData.metadata['criminalrecord'] or {
         ['hasRecord'] = false,
         ['date'] = nil
@@ -148,7 +156,8 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
         ['driver'] = true,
         ['business'] = false,
         ['weapon'] = false,
-        ['pilot'] = false
+        ['pilot'] = false,
+        ['hunting'] = false -- boii-hunting
     }
     PlayerData.metadata['inside'] = PlayerData.metadata['inside'] or {
         house = nil,
