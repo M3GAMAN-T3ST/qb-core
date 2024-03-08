@@ -751,8 +751,8 @@ QBShared.Items = {
     pineapple_tabs 			     = {name = 'pineapple_tabs', 			  		label = 'Pineapple Tabs', 				weight = 100, 		type = 'item', 		image = 'pineapple_tabs.png', 			unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
     bart_tabs 			 		 = {name = 'bart_tabs', 			  			label = 'Bart Simpson Tabs', 			weight = 100, 		type = 'item', 		image = 'bart_tabs.png', 			unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
     gratefuldead_tabs 			 = {name = 'gratefuldead_tabs', 			  	label = 'Grateful Dead Tabs', 			weight = 100, 		type = 'item', 		image = 'gratefuldead_tabs.png', 			unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = 'DONT USE IF YOU GET SEIZURES'},
-    lsdlabkit 			 		 = {name = 'lsdlabkit', 			  				label = 'LSD Mixing Table', 			weight = 1000, 		type = 'item', 		image = 'labkit.png', 			unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
-    dirtylsdlabkit 			 	 = {name = 'dirtylsdlabkit', 			  		label = 'Dirty LSD Mixing Table', 			weight = 1000, 		type = 'item', 		image = 'labkit_dirty.png', 			unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
+    lsdlabkit 			 		 = {name = 'lsdlabkit', 			  			label = 'LSD Mixing Table', 			weight = 1000, 		type = 'item', 		image = 'labkit.png', 			unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
+    dirtylsdlabkit 			 	 = {name = 'dirtylsdlabkit', 			  		label = 'Dirty LSD Mixing Table', 		weight = 1000, 		type = 'item', 		image = 'labkit_dirty.png', 			unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
         -- heroin
     heroinstagetwo 		 	 	 	 = {name = 'heroinstagetwo',           			label = 'Better Heroin',	 		weight = 250, 		type = 'item', 		image = 'heroinpowderstagetwo.png', 				unique = false, 	useable = false, 	shouldClose = false,   combinable = nil,     description = ''},
     heroinstagethree 		 	 	 = {name = 'heroinstagethree',           		label = 'Best Heroin',	 			weight = 250, 		type = 'item', 		image = 'heroinpowderstagethree.png', 				unique = false, 	useable = false, 	shouldClose = false,   combinable = nil,     description = ''},
@@ -760,14 +760,14 @@ QBShared.Items = {
     heroincutstagetwo 		 	 	 = {name = 'heroincutstagetwo',           		label = 'Better Cut Heroin',	 	weight = 250, 		type = 'item', 		image = 'heroinpowderstagethree.png', 				unique = false, 	useable = false, 	shouldClose = false,   combinable = nil,   		 description = ''},
     heroincutstagethree 		 	 = {name = 'heroincutstagethree',           	label = 'Best Cut Heroin',	 		weight = 250, 		type = 'item', 		image = 'heroinpowderstagetwo.png', 				unique = false, 	useable = false, 	shouldClose = false,   combinable = nil,  	     description = ''},
     heroinlabkit 		 	 	 	 = {name = 'heroinlabkit',           			label = 'Heroin Lab Kit',	 		weight = 250, 		type = 'item', 		image = 'labkit.png', 				unique = false, 	useable = true, 	shouldClose = false,   combinable = nil,   		 description = ''},
-    dirtyheroinlabkit 		 	 	 = {name = 'dirtyheroinlabkit',           		label = 'Dirty heroin Lab Kit',	 	weight = 250, 		type = 'item', 		image = 'labkit_dirty.png', 		unique = false, 	useable = true, 	shouldClose = false,   combinable = nil,   		 description = ''},
+    dirtyheroinlabkit 		 	 	 = {name = 'dirtyheroinlabkit',           		label = 'Dirty Heroin Lab Kit',	 	weight = 250, 		type = 'item', 		image = 'labkit_dirty.png', 		unique = false, 	useable = true, 	shouldClose = false,   combinable = nil,   		 description = ''},
     heroinvial 		 	 	 		 = {name = 'heroinvial',           				label = 'Vial Of Heroin',	 		weight = 250, 		type = 'item', 		image = 'heroin.png', 				unique = false, 	useable = false, 	shouldClose = false,   combinable = nil,     description = ''},
     heroinvialstagetwo 		 	 	 = {name = 'heroinvialstagetwo',           		label = 'Better Vial of Heroin',	weight = 250, 		type = 'item', 		image = 'heroinstagetwo.png', 				unique = false, 	useable = false, 	shouldClose = false,   combinable = nil,     description = ''},
     heroinvialstagethree 		 	 = {name = 'heroinvialstagethree',           	label = 'Best Vial Of Heroin',	 	weight = 250, 		type = 'item', 		image = 'heroinstagethree.png', 				unique = false, 	useable = false, 	shouldClose = false,   combinable = nil,     description = ''},
     heroin_ready 		 	 	 	 = {name = 'heroin_ready',           			label = 'Syringe Of Heroin',	 	weight = 250, 		type = 'item', 		image = 'heroin_ready.png', 				unique = false, 	useable = true, 	shouldClose = false,   combinable = nil,   		 description = ''},
     heroin_readystagetwo 		 	 = {name = 'heroin_readystagetwo',           	label = 'Syringe Of Better Heroin',	 weight = 250, 		type = 'item', 		image = 'heroin_readystagetwo.png', 				unique = false, 	useable = true, 	shouldClose = false,   combinable = nil,         description = ''},
     heroin_readystagethree 		 	 = {name = 'heroin_readystagethree',           	label = 'Syringe Of Best Heroin',	 weight = 250, 		type = 'item', 		image = 'heroin_readystagethree.png', 				unique = false, 	useable = true, 	shouldClose = false,   combinable = nil,         description = ''},
-    emptyvial 				    	 = {name = 'emptyvial', 			    	label = 'empty vial', 			    weight = 100, 		type = 'item', 		image = 'emptyvial.png', 			unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil,					 description = ''},
+    emptyvial 				    	 = {name = 'emptyvial', 			    	    label = 'empty vial', 			    weight = 100, 		type = 'item', 		image = 'emptyvial.png', 			unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil,					 description = ''},
     needle 		 					 = {name = 'needle',           					label = 'Syringe',	 				weight = 250, 		type = 'item', 		image = 'syringe.png', 				unique = false, 	useable = false, 	shouldClose = false,   combinable = nil,         description = ''},
         -- crack
     crackrock 		 	 	 		 = {name = 'crackrock',           				label = 'Crack Rock',	 			weight = 250, 		type = 'item', 		image = 'crackrock1.png', 				unique = false, 	useable = false, 	shouldClose = false,   combinable = nil,     description = ''},
@@ -960,7 +960,5 @@ QBShared.Items = {
 
     -- serrulata-warehouserobbery
     ['samsungtv'] 				 	 = {['name'] = 'samsungtv', 			  	  	['label'] = 'Samsung TV', 				['weight'] = 7500, 		['type'] = 'item', 		['image'] = 'tv.png', 					['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Cool Looking TV'},
-
-    -- iak_wheelchair                   = { name = 'iak_wheelchair', label = 'Wheelchair', weight = 200, type = 'item', image = 'iak_wheelchair.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Just a wheelchair' },
 
 }
