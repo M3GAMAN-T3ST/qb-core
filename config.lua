@@ -87,6 +87,13 @@ QBConfig.Player.PlayerDefaults = {
         callsign = 'NO CALLSIGN',
         fingerprint = function() return QBCore.Player.CreateFingerId() end,
         walletid = function() return QBCore.Player.CreateWalletId() end,
+        farmingxp = 0, -- boii-farming
+        communityservice = 0, -- qb-community-service
+        carboostrep = 0, -- jl-laptop
+        laptop = { -- jl-laptop
+            background = 'default',
+            darkfront = false
+        },
         criminalrecord = {
             hasRecord = false,
             date = nil
@@ -94,8 +101,9 @@ QBConfig.Player.PlayerDefaults = {
         licences = {
             driver = true,
             business = false,
-            weapon = false
-        },
+            weapon = false,
+            pilot = false,
+            hunting = false
         inside = {
             house = nil,
             apartment = {
